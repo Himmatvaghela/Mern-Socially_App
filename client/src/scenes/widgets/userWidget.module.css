@@ -1,0 +1,109 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color: #383737;
+    border-radius: 5px;
+}
+
+.container .img_row{
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .img_row .img_name{
+    display: flex;
+    grid-column-gap: 1rem;
+}
+
+.container .img_row .img_name .name_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 0.2rem;
+}
+.container .img_row .img_name .name_box:hover{
+    cursor: pointer;
+}
+
+.container .img_row .img_name .name_box h1{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.container .img_row .img_name .name_box h1:hover{
+    color: #c7bfbf;
+}
+
+.container .img_row .img_name .name_box span{
+    color: #c7bfbf;
+    font-size: 1.4rem;
+    
+}
+
+.container .row{
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    grid-row-gap: 1.5rem;
+}
+
+.container .row .icon_text{
+    display: flex;
+    grid-column-gap: 1.5rem;
+    align-items: center;
+}
+.container .row .icon_text span{
+    font-size: 1.4rem;
+    color: #c7bfbf;
+}
+
+.container .row .text_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #c7bfbf;
+}
+
+.container .row .text_box p{
+    color: white;
+}
+
+.container .row .heading{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.container .row .social_links_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .row .social_links_row .icon_text{
+    display: flex;
+    align-items: center;
+    grid-column-gap: 1rem;
+}
+
+.container .row .social_links_row .icon_text .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 0.2rem;
+}
+
+.container .row .social_links_row .icon_text .text h1{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+}
+.container .row .social_links_row .icon_text .text span{
+    font-size: 1.4rem;
+    color: #c7bfbf;
+}

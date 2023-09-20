@@ -1,0 +1,160 @@
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #383737;
+}
+
+.heading h1{
+    font-size: 4rem;
+    color: aqua;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+
+ .box{
+    background-color: #383737;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 60%;
+    margin-top: -5rem;
+}
+
+.box h1{
+    font-size: 1.6rem;
+    color: aqua;
+}
+
+
+.box .form_box{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2rem;
+}
+.box .form_box .input_box{
+    display: flex;
+    grid-gap: 2rem;
+
+}
+
+
+.box .form_box input{
+    width: 100%;
+    background-color: #383737;
+    border: 1px solid grey;
+    outline: none;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+}
+.box .form_box .errors{
+    font-size: 1.4rem;
+    color: red;
+    margin-top: -1.5rem;
+}
+.box .form_box .input_box .error_input{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2rem;
+    width: 100%;
+}
+
+.box .form_box .input_box .error_input input{
+    width: 100%;
+    background-color: #383737;
+    border: 1px solid grey;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+    outline: none;
+}
+
+.box .form_box .input_box .error_input .errors{
+    font-size: 1.4rem;
+    color: red;
+    margin-top: -1.5rem;
+}
+
+input::placeholder{
+    color: white;
+}
+input:focus{
+    border: 2px solid white !important;
+}
+
+.box .form_box .outer_image_box{
+    width: 100%;
+    background-color: #383737;
+    border: 1px solid grey;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.box .form_box .outer_image_box .inner_image_box{
+    width: 100%;
+    height: 100%;
+    border: 2px dashed aqua;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.box .form_box .outer_image_box .inner_image_box .flex_picture_edit_icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .form_box .SubmitBtn{
+    border: none;
+    font-size: 1.8rem;
+    color: black;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 100%;
+    font-weight: 600;
+}
+
+.box .form_box .login_to_register{
+    color: aqua;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width : 1000px) {
+    .box{
+        margin-top: 0rem;
+    }
+    
+}
+
+@media screen and (max-width : 640px) {
+    .box{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width : 400px) {
+    .box .form_box .input_box{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,64 @@
+
+.workspace{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-column-gap: 3rem;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .workspace{
+        grid-template-columns: 1.3fr 2fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .workspace{
+        grid-template-columns: 1fr;
+    }
+}
+
+.workspace .box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    grid-row-gap: 2rem;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.workspace .post_data .Icon_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30px;
+    right: 32%;
+}
+
+@media screen and (max-width: 1200px) {
+    .workspace .post_data .Icon_box{
+        right: 5%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .workspace .post_data .Icon_box{
+        right: 10%;
+    }
+}
+
+.workspace .post_data .Icon_box:hover{
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}

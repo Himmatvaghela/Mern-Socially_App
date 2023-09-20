@@ -1,0 +1,95 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 2rem;
+}
+
+.container .discription{
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: -1rem;
+}
+
+.container .img_box{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container .img_box img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container .img_box video{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container .btn_row{
+    display: flex;
+    grid-column-gap: 2rem;
+}
+
+.container .btn_row .btn{
+    margin-top: -1rem;
+    display: flex;
+    align-items: center;
+    grid-gap: 0.3rem;
+}
+
+.container .btn_row .btn span{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.container .comment_input_box{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 1.5rem;
+}
+
+.container .comment_input_box .input_box{
+    display: flex;
+    grid-gap: 1rem;
+    align-items: center;
+}
+
+.container .comment_input_box .input_box input{
+    padding: 0.8rem 1.4rem;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.container .comment_input_box .input_box .btn{
+    font-size: 1.4rem;
+    color: aqua;
+    background-color: black;
+    border: 1px solid aqua;
+    border-radius: 30px;
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container .comment_input_box .comment_box{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 1rem;
+    color: white;
+    font-size: 1.4rem;
+    max-height: 14rem;
+    overflow-y: scroll;
+    border-bottom: 1px solid white;
+}
+
+.container .comment_input_box .comment_box li{
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
