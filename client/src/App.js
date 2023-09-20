@@ -3,7 +3,6 @@ import LoginPage from "scenes/loginPage";
 import HomePage from "scenes/homePage";
 import ProfilePage from "scenes/profilePage";
 import { useSelector } from "react-redux";
-import FriendListWidget from "scenes/widgets/FriendListWidget";
 import FriendListPage from "scenes/friendListPage";
 
 function App() {
