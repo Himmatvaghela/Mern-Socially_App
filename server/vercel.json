@@ -15,23 +15,11 @@
             "dest":"index.js"
         },
         {
-            "src":"/auth/(.*)",
-            "dest":"index.js"
-        },
-        {
             "src":"/users",
             "dest":"index.js"
         },
         {
-            "src":"/users/(.*)",
-            "dest":"index.js"
-        },
-        {
             "src":"/posts",
-            "dest":"index.js"
-        },
-        {
-            "src":"/posts/(.*)",
             "dest":"index.js"
         },
         {
