@@ -15,11 +15,43 @@
             "dest":"index.js"
         },
         {
+            "src":"/auth/login",
+            "dest":"index.js"
+        },
+        {
+            "src":"/auth/register",
+            "dest":"index.js"
+        },
+        {
             "src":"/users",
             "dest":"index.js"
         },
         {
+            "src":"/users/(.*)",
+            "dest":"index.js"
+        },
+        {
+            "src":"/users/(.*)/friends",
+            "dest":"index.js"
+        },
+        {
+            "src":"/users/(.*)/(.*)",
+            "dest":"index.js"
+        },
+        {
             "src":"/posts",
+            "dest":"index.js"
+        },
+        {
+            "src":"/posts/(.*)/posts",
+            "dest":"index.js"
+        },
+        {
+            "src":"/posts/(.*)/like",
+            "dest":"index.js"
+        },
+        {
+            "src":"/posts/(.*)/comment",
             "dest":"index.js"
         },
         {
