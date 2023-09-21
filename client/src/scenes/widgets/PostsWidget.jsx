@@ -51,7 +51,7 @@ function PostsWidget({userId,isProfile=false}) {
 
 
   return (
-    <div className={postswgtcss.container} style={{padding:'1.5rem',backgroundColor:'#383737',display:'flex',flexDirection:'column',gridGap:'3rem'}}>
+    <div className={postswgtcss.container} style={{padding:'1.5rem 1.5rem 5rem 1.5rem',backgroundColor:'#383737',display:'flex',flexDirection:'column',gridGap:'3rem'}}>
         {posts.map(({
             _id,
           userId,
