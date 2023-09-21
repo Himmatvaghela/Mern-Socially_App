@@ -11,10 +11,10 @@
     ],
     "rewrites": [{ "source": "/(.*)", "destination": "index.js" }],
     "functions": {
-        "api/auth/register": {
+        "auth/register": {
           "handler": "server/serverless/upload.js"
         },
-        "api/posts": {
+        "posts": {
           "handler": "server/serverless/upload.js"
         }
       }
