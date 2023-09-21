@@ -9,5 +9,13 @@
             "use":"@vercel/static"
         }
     ],
-    "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
+    "rewrites": [{ "source": "/(.*)", "destination": "index.js" }],
+    "functions": {
+        "api/auth/register": {
+          "handler": "server/serverless/upload.js"
+        },
+        "api/posts": {
+          "handler": "server/serverless/upload.js"
+        }
+      }
 }
