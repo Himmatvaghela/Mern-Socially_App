@@ -58,6 +58,7 @@ function PostWidget({
   }
 
   const getFileType = (url) => {
+    if(!url){ return null}
     if (url.endsWith('.jpg') || url.endsWith('.jpeg') || url.endsWith('.png') || url.endsWith('.gif')) {
       return 'image';
     } else if (url.endsWith('.mp4') || url.endsWith('.webm') || url.endsWith('.avi') || url.endsWith('.mkv') || url.endsWith('.mov') || url.endsWith('.wmv') || url.endsWith('.flv') || url.endsWith('.webm') || url.endsWith('.m4a')) {
