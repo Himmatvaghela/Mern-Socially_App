@@ -9,13 +9,5 @@
             "use":"@vercel/static"
         }
     ],
-    "functions": {
-        "auth/register": {
-            "handler": "server/serverless/upload.js"
-        },
-        "posts": {
-            "handler": "server/serverless/upload.js"
-        }
-    },
     "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
 }
